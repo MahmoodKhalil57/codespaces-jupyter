@@ -31,7 +31,7 @@ def main():
 
 def run(time_frame, current_time):
 
-    df = pd.read_csv("Bitstamp_BTCUSD_2021_minute.csv")
+    df = pd.read_csv("data/Bitstamp_BTCUSD_2021_minute.csv")
 
     df = preProcess(df, time_frame)
 
